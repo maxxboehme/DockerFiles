@@ -1,6 +1,8 @@
 # DockerFiles
 Contains all my Dockerfiles
 
+[![Build Status](https://travis-ci.org/maxxboehme/DockerFiles.svg?branch=master)](https://travis-ci.org/maxxboehme/DockerFiles)
+
 ###base-dev
 
 [![nodesource/node](http://dockeri.co/image/maxxboehme/base-dev)](https://registry.hub.docker.com/u/maxxboehme/base-dev/)
