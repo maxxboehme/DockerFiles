@@ -1,0 +1,13 @@
+
+sudo: required
+
+notifications:
+   email: true
+
+services:
+   - docker
+
+script:
+   - docker build -t base-dev ./images/base-dev/
+   - docker build -t cpp-dev ./images/base-dev/
+   - docker build -t java-dev ./images/base-dev/
